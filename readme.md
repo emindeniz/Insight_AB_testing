@@ -56,8 +56,8 @@ Columns:
         
    
 Example
-        Let's check the first user
-head(test_results,1)
+
+`head(test_results,1)
   Column Name             Value              Description
   user_id                 604839             The Id of the user
                           2015-05-08         The user landed on the site on May, 8 at 3 and
