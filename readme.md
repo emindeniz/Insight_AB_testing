@@ -22,11 +22,11 @@ Especially he asked you the following questions:
                                                                                                     
 ### Data
 
-We have two tables downloadable by clicking here.
-The two tables are:
-  "test_results" - data about the test
+We have two tables are `test_results.csv` and `user_table.csv`
+
 Columns:
-      user_id : the Id of the user. Can be joined to user_id in user_table
+
+      `user_id : the Id of the user. Can be joined to user_id in user_table
       timestamp : the date and time when the user hit for the first time company XYZ
       webpage. It is in user local time
       source : marketing channel that led to the user coming to the site. It can be:
@@ -43,9 +43,10 @@ Columns:
       price)
       price : the price the user sees. It should match test
       converted : whether the user converted (i.e. 1 -> bought the software) or not (0 -> left
-      the site without buying it).
+      the site without buying it).`
   "user_table" - Information about the user
 Columns:
+`
       user_id : the Id of the user. Can be joined to user_id in test_results table
       city : the city where the user is located. Comes from the user ip address
       country : in which country the city is located
@@ -73,5 +74,5 @@ subset (user_table,user_id == 604839)
   city                 Buffalo      She was based in Buffalo when she hit the site
   country              USA         The country where Buffalo is
   lat                  42.89       Buffalo latitude
-  long                 -78.86      Buffalo longitude
-                                                                                                 24
+  long                 -78.86      Buffalo longitude`
+                                                                                                 
