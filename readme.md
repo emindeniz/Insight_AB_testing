@@ -53,28 +53,4 @@ Columns:
       lat : city latitude - should match user city
                                                                                                     
        long : city longitude - should match user city`
-        
-   
-Example
-
-`head(test_results,1)
-  Column Name             Value              Description
-  user_id                 604839             The Id of the user
-                          2015-05-08         The user landed on the site on May, 8 at 3 and
-  timestamp
-                          03:38:34           38AM (and 34 seconds).
-  source                  ads_facebook       User came via Facebook ads
-  device                  mobile             User was using mobile
-  operative_system        iOS                Was using iOS
-  test                    0                  Was in the control group, i.e. seeing the old price
-  price                   39                 Indeed, the price she saw was just $39
-  converted               0                  Alas, left the site without purchasing the software
-        Let's check location info for that user
-subset (user_table,user_id == 604839)
-  Column Name          Value       Description
-  user_id              604839      User id. Same user as in the previous table
-  city                 Buffalo      She was based in Buffalo when she hit the site
-  country              USA         The country where Buffalo is
-  lat                  42.89       Buffalo latitude
-  long                 -78.86      Buffalo longitude`
-                                                                                                 
+                                       
