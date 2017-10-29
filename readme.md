@@ -46,13 +46,15 @@ Columns:
       the site without buying it).`
   "user_table" - Information about the user
 Columns:
-`
-      user_id : the Id of the user. Can be joined to user_id in test_results table
+
+      `user_id : the Id of the user. Can be joined to user_id in test_results table
       city : the city where the user is located. Comes from the user ip address
       country : in which country the city is located
       lat : city latitude - should match user city
-                                                                                                    23
-        long : city longitude - should match user city
+                                                                                                    
+       long : city longitude - should match user city`
+        
+   
 Example
         Let's check the first user
 head(test_results,1)
